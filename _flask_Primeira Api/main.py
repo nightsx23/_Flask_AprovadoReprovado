@@ -2,7 +2,7 @@ from flask import Flask  # importa a biblioteca flask
 from flask.globals import request
 from flask.json import jsonify
 from flask.templating import render_template
-#teste developer
+#teste de branch
 app = Flask(__name__) #inicializa a API
 
 @app.route('/') #cria uma rota 
