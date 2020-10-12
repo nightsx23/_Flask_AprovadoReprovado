@@ -3,6 +3,7 @@ from flask.globals import request
 from flask.json import jsonify
 from flask.templating import render_template
 
+#Teste de pull request
 app = Flask(__name__) #inicializa a API
 
 @app.route('/') #cria uma rota 
